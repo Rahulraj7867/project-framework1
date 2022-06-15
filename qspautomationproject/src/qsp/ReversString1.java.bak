@@ -1,0 +1,13 @@
+class ReversSting1
+{
+public static void main(String []args)
+{
+String Name ="vishal";
+for(int n=Name.length-1;n<0;n--)
+{
+String vnmae=vname+Name.charAt(n);
+
+}
+System.out.println(vname);
+}
+}
