@@ -32,5 +32,6 @@ driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		  int ypoin = x.getY();
 		JavascriptExecutor jse=(JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy("+xsize+","+ypoin+")");
+		//rahul
 	}
 }
