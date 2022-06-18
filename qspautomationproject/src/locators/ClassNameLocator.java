@@ -21,7 +21,7 @@ public class ClassNameLocator {
 		driver.findElement(By.className("lNPNe")).click();
 
 		
-		Thread.sleep(1000);
+		Thread.sleep(1000);//rahul rajput
 
 		driver.close();
 	}
