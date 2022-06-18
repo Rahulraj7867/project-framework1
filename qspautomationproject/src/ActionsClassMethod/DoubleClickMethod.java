@@ -20,6 +20,6 @@ System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
       Actions act =new Actions(driver);
       act.doubleClick(target).perform();
 
-	}
+	}//ergeargg3ggrwgrgsgwgagaga
 
 }
