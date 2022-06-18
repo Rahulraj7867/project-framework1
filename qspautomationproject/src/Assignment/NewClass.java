@@ -15,7 +15,7 @@ WebDriver driver=new ChromeDriver();
 driver.get("https://www.google.com");
 WebElement tv=driver.findElement(By.xpath("//input[@name='q']")); 
 tv.sendKeys("my name");
-Thread.sleep(2000);
+Thread.sleep(5000);
 tv.sendKeys(Keys.CONTROL+"a");
 tv.sendKeys(Keys.DELETE);
 }
