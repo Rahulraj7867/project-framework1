@@ -28,10 +28,10 @@ driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		
 		WebElement webe = driver.findElement(By.xpath("//img[@alt='Slippers & Flip Flops']"));
 		Point x = webe.getLocation();
-		  int xsize = x.getX();
-		  int ypoin = x.getY();
+		  int xsi = x.getX();
+		  int ysi = x.getY();
 		JavascriptExecutor jse=(JavascriptExecutor)driver;
-		jse.executeScript("window.scrollBy("+xsize+","+ypoin+")");
+		jse.executeScript("window.scrollBy("+xsi+","+ysi+")");
 		//rahul
 	}
 }
