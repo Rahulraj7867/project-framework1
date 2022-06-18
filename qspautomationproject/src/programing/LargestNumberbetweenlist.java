@@ -5,11 +5,11 @@ public class LargestNumberbetweenlist {
 	public static void main(String[] args) {
 		int a[]= {5,10,20,8,4,23};
 		int max= a[0];
-		for (int i=1;i<a.length;i++)
+		for (int v=1;v<a.length;v++)
 		{
-			if(max<=a[i])
+			if(max<=a[v])
 			{
-				max=a[i];
+				max=a[v];
 			}
 			
 		}
